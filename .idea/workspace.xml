@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="ad53cad7-aa7d-4dc7-93f6-36bc9abbee75" />
   </component>
@@ -71,6 +74,7 @@
       <workItem from="1668743414298" duration="595000" />
       <workItem from="1668744356188" duration="2627000" />
       <workItem from="1668756362608" duration="3112000" />
+      <workItem from="1668763546109" duration="14000" />
     </task>
     <servers />
   </component>
