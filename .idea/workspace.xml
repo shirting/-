@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20c77298-b2e4-49fd-82e2-573b3f2e13bc" name="Changes" comment="" />
+    <list default="true" id="4fb4448b-e318-4603-a0bf-9d48158a2bb5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +10,13 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="ad53cad7-aa7d-4dc7-93f6-36bc9abbee75" />
@@ -22,30 +27,50 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2HiM4oPVokvb5OD0k6DkFbeu9BP" />
+  <component name="ProjectId" id="2HWQCTtHFMTaT8eGecQ4TkvjmKK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/apple/IdeaProjects/cloudpro/src/assets&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/component/highcharts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="20c77298-b2e4-49fd-82e2-573b3f2e13bc" name="Changes" comment="" />
-      <created>1668763261713</created>
+      <changelist id="4fb4448b-e318-4603-a0bf-9d48158a2bb5" name="Changes" comment="" />
+      <created>1668398232493</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668763261713</updated>
-      <workItem from="1668763263743" duration="4000" />
+      <updated>1668398232493</updated>
+      <workItem from="1668398235624" duration="20059000" />
+      <workItem from="1668510505861" duration="326000" />
+      <workItem from="1668574301005" duration="8129000" />
+      <workItem from="1668743129381" duration="264000" />
+      <workItem from="1668743414298" duration="595000" />
+      <workItem from="1668744356188" duration="2627000" />
+      <workItem from="1668756362608" duration="3112000" />
     </task>
     <servers />
   </component>

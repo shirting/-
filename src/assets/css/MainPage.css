@@ -1,0 +1,13 @@
+.baseStyle{
+    height:95%;
+    width: 100%;
+}
+.baseStyle .word-cloud-wrap{
+    width: 90%;
+    height: 96%;
+    margin: 2% 5%;
+    padding: 5%;;
+    background: no-repeat;
+    background-image: url(../images/word_cloud.png);
+    background-size: 100% 100%;
+}
