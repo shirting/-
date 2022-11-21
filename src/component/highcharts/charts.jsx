@@ -23,7 +23,7 @@ class MyStockChart extends Component {
         this.setState({
             language: props.language
         },()=>{
-            this.getData();
+            // this.getData();
         })
     }
 

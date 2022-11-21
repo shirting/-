@@ -4,27 +4,62 @@ import Wordle from "./wordle";
 import axios from "axios";
 import "../assets/css/MainPage.css"
 class MainPage extends Component {
-    constructor(props) {
-        super(props);
+    constructor(prop) {
+        super(prop);
         this.state = {
-            language: props.language,
-            data:[{lan:"test",count:0}]
+            language: prop.language,
+            data:[{name:"java",count:1}]
         }
     }
     componentDidMount() {
-        console.log("DOM挂载后，已经渲染了：componentDidMount")
-        this.getData(this.state.language)
+        // console.log("DOM挂载后，已经渲染了：componentDidMount")
+        this.getData2(this.state.language)
+        // const urlParams = new URL(window.location.href);
+        // const pathname = urlParams.search.split("=")[1];
+        // console.log("pathname:", pathname)
+        // this.getData2(pathname);
     }
+
     componentWillReceiveProps(newProps) {
-        console.log("组件收到新的props：componentWillReceiveProps：" + newProps)
+        // console.log("组件收到新的props：componentWillReceiveProps：" + newProps)
         // console.log(newProps)
-        this.getData(newProps.language);
+        this.getData2(newProps.language);
+        // const urlParams = new URL(window.location.href);
+        // const pathname = urlParams.search.split("=")[1];
+        // console.log("pathname:", pathname)
+        // this.getData2(pathname);
     }
     getData = (language) => {
         axios(axios.defaults.baseURL + "rank/get?num=100"
         ).then((res) => {
             /******假数据[{name:"python0",count:1000}{name:"python0",count:1000}{name:"python0",count:1000}]****/
             console.log(res)
+            // var num = (parseInt(Math.random() * 200));
+            // var result = [];
+            // for (var i = 0; i < num; i++) {
+            //     var count = (parseInt(Math.random() * 500000));
+            //     var name = language + i
+            //     var arr = {
+            //         name: name,
+            //         count: count
+            //     }
+            //     result.push(arr);
+            // }
+            var result = res.data;
+            this.setState({
+                language: language,
+                data: result
+            })
+        })
+    }
+    getData2=(language) => {
+        axios.post(axios.defaults.baseURL,{
+                "language":language,
+                "total":100
+            }
+        ).then((res) => {
+            /******假数据[{name:"python0",count:1000}{name:"python0",count:1000}{name:"python0",count:1000}]****/
+            // console.log(res)
             // var num = (parseInt(Math.random() * 200));
             // var result = [];
             // for (var i = 0; i < num; i++) {

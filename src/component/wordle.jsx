@@ -5,6 +5,7 @@ import {render} from "react-dom";
 
 class Wordle extends Component {
     constructor(props) {
+        // console.log(props)
         super(props);
         this.state = {
             language: this.props.language,
@@ -13,12 +14,12 @@ class Wordle extends Component {
     }
 
     componentWillReceiveProps(props) {
-        console.log(props)
+        // console.log(props)
         this.setState({
             language: props.language,
             data: props.data,
         }, () => {
-            console.log("wordle", this.state.data)
+            // console.log("wordle", this.state.data)
             if(props.data.length!=0) {
                 this.render()
                 this.wordle()
@@ -144,7 +145,7 @@ class Wordle extends Component {
 
         return (
             <ul className="tagBall">
-                {this.state.data.map(ele => (<li className="tag">
+                {this.state.data.map(ele => (<li className="tag" key={ele.name}>
                     <span>{ele.name}</span>
                     <p className="value-tag">{ele.name}：{ele.count}</p>
                 </li>))}

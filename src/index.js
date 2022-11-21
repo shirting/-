@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import "./setupProxy"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
-// axios.defaults.baseURL="https://api.github.com/search/repositories?q=language:"
-axios.defaults.baseURL="http://localhost:8092/"
+axios.defaults.baseURL="http://172.29.7.160:8080/api/qry"
+// axios.defaults.baseURL="http://localhost:8092/"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

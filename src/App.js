@@ -17,7 +17,7 @@ function getItem(label, key, icon, children, theme) {
         theme,
     };
 }
-    function App() {
+function App() {
 
         const [theme, setTheme] = useState('light');
         const [current, setCurrent] = useState('java');
@@ -31,25 +31,30 @@ function getItem(label, key, icon, children, theme) {
             getItem('Java', 'java'),
             getItem('Python', 'python'),
             getItem('Go', 'go'),
+            getItem('JavaScript', 'javascript'),
         ];
+    const urlParams = new URL(window.location.href);
+    const pathname = urlParams.search.split("=")[1];
+    console.log("pathname:", pathname)
   return (
       <div className='mainPage'>
           <Layout className='mainPage'>
-              <Header className='header'>编程语言为java 的项目中出现最多的关键字</Header>
+              {/*<Header className='header'>编程语言为{pathname}的项目中出现最多的关键字</Header>*/}
+              <Header className='header'>编程语言为{current}的项目中出现最多的关键字</Header>
               <Layout className='layout'>
-                  {/*<Sider  className='left-slider'>*/}
-                  {/*    <Menu*/}
-                  {/*        onClick={onClick}*/}
-                  {/*        style={{*/}
-                  {/*            width: 256,*/}
-                  {/*        }}*/}
-                  {/*        defaultOpenKeys={['sub1']}*/}
-                  {/*        selectedKeys={[current]}*/}
-                  {/*        mode="vertical"*/}
-                  {/*        theme="dark"*/}
-                  {/*        items={items}*/}
-                  {/*    />*/}
-                  {/*</Sider>*/}
+                  <Sider  className='left-slider'>
+                      <Menu
+                          onClick={onClick}
+                          style={{
+                              width: 256,
+                          }}
+                          defaultOpenKeys={['sub1']}
+                          selectedKeys={[current]}
+                          mode="vertical"
+                          theme="dark"
+                          items={items}
+                      />
+                  </Sider>
                   <Content  className='content'>
                       <MainPage language={current}></MainPage>
                   </Content>
