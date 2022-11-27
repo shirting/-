@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb4448b-e318-4603-a0bf-9d48158a2bb5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/highcharts/charts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/highcharts/charts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/mainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/mainPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/wordle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/wordle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="4fb4448b-e318-4603-a0bf-9d48158a2bb5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +77,7 @@
       <workItem from="1668763546109" duration="14000" />
       <workItem from="1668763766087" duration="53000" />
       <workItem from="1668958260070" duration="6778000" />
+      <workItem from="1669014273754" duration="101000" />
     </task>
     <servers />
   </component>
