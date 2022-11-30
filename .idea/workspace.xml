@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb4448b-e318-4603-a0bf-9d48158a2bb5" name="Changes" comment="" />
+    <list default="true" id="4fb4448b-e318-4603-a0bf-9d48158a2bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/DynamicSortChart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/DynamicSortChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/StaticWordle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/mainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/mainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -27,16 +40,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2HWQCTtHFMTaT8eGecQ4TkvjmKK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -78,10 +98,20 @@
       <workItem from="1668763766087" duration="53000" />
       <workItem from="1668958260070" duration="6778000" />
       <workItem from="1669014273754" duration="101000" />
+      <workItem from="1669602623043" duration="1182000" />
+      <workItem from="1669604106468" duration="517000" />
+      <workItem from="1669604629057" duration="23000" />
+      <workItem from="1669604757456" duration="3711000" />
+      <workItem from="1669688102130" duration="5803000" />
+      <workItem from="1669726755247" duration="10526000" />
+      <workItem from="1669772155602" duration="5858000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

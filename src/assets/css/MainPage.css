@@ -3,10 +3,23 @@
     width: 100%;
 }
 .baseStyle .word-cloud-wrap{
-    width: 90%;
-    height: 96%;
-    margin: 2% 5%;
-    padding: 5%;;
+    display:inline;
+    float:left;
+    margin:1% 2%;
+    width:400px;
+    height:660px;
+    padding:70px 30px 20px 30px;
+    background: no-repeat;
+    background-image: url(../images/word_cloud.png);
+    background-size: 100% 100%;
+}
+.baseStyle .dynamic-sort-chart{
+    display:inline;
+    float:left;
+    margin:1%;
+    width:920px;
+    height:660px;
+    padding:80px 30px 20px 30px;
     background: no-repeat;
     background-image: url(../images/word_cloud.png);
     background-size: 100% 100%;

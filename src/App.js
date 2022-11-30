@@ -35,26 +35,23 @@ function App() {
         ];
     const urlParams = new URL(window.location.href);
     const pathname = urlParams.search.split("=")[1];
-    console.log("pathname:", pathname)
   return (
       <div className='mainPage'>
           <Layout className='mainPage'>
               {/*<Header className='header'>编程语言为{pathname}的项目中出现最多的关键字</Header>*/}
-              <Header className='header'>编程语言为{current}的项目中出现最多的关键字</Header>
-              <Layout className='layout'>
-                  <Sider  className='left-slider'>
+              <div className='header'>
+                  <Sider className='left-slider' >
                       <Menu
                           onClick={onClick}
-                          style={{
-                              width: 256,
-                          }}
                           defaultOpenKeys={['sub1']}
                           selectedKeys={[current]}
-                          mode="vertical"
+                          mode="horizontal"
                           theme="dark"
                           items={items}
                       />
                   </Sider>
+              </div>
+              <Layout className='layout'>
                   <Content  className='content'>
                       <MainPage language={current}></MainPage>
                   </Content>
