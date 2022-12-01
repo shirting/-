@@ -11,7 +11,8 @@ class StaticWordle extends Component {
     constructor(prop) {
         super(prop);
         this.state = {
-            data:null,
+            language:prop.language,
+            data:[],
             options: {
                 chart:{
                     backgroundColor:"rgba(36,36,37)",
@@ -22,6 +23,7 @@ class StaticWordle extends Component {
                 },
                 series: [{
                     type:"wordcloud",
+                    minFontSize: 9,//最小字体
                     data: []
                 }]
             }
@@ -33,31 +35,54 @@ class StaticWordle extends Component {
     }
 
     componentWillReceiveProps(newProps) {
-        let option={
-            chart:{
-                backgroundColor:"rgba(36,36,37)"
+        var da = [];
+        for (var i = 0; i < 100; i++) {
+            var tmp = {};
+            tmp.name = "java-" + i+"-i";
+            tmp.weight = parseInt(Math.random() * 1000);
+            da.push(tmp)
+        }
+        this.setState({
+            language: newProps.language,
+            data: newProps.data
+        })
+        var option = {
+            chart: {
+                height:560,
+                backgroundColor: "rgba(36,36,37)"
             },
             title: {
                 text: null
             },
             series: [{
-                type:"wordcloud",
+                type: "wordcloud",
+                minFontSize: 9,//最小字体
                 data: newProps.data,
             }]
         }
-        this.setState({
-            options: option,
-        }, () => {
-
-        })
     }
 
     render() {
+        var option = {
+            chart: {
+                height:560,
+                backgroundColor: "rgba(36,36,37)"
+            },
+            title: {
+                text: null
+            },
+            series: [{
+                type: "wordcloud",
+                minFontSize: 7,//最小字体
+                maxFontSize: 30,//最小字体
+                data: this.state.data,
+            }]
+        }
         return (
             <HighchartsReact
                 className="Chart"
                 highcharts={Highcharts}
-                options={this.state.options}
+                options={option}
             />
         )
     }

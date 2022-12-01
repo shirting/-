@@ -20,7 +20,7 @@ function getItem(label, key, icon, children, theme) {
 function App() {
 
         const [theme, setTheme] = useState('light');
-        const [current, setCurrent] = useState('java');
+        const [current, setCurrent] = useState('r');
         const changeTheme = (value) => {
             setTheme(value ? 'dark' : 'light');
         };
@@ -28,10 +28,18 @@ function App() {
             setCurrent(e.key);
         };
         const items = [
+            getItem('r', 'r'),
+            getItem('ruby', 'ruby'),
+            getItem('rust', 'rust'),
             getItem('Java', 'java'),
             getItem('Python', 'python'),
             getItem('Go', 'go'),
             getItem('JavaScript', 'javascript'),
+            getItem('swift', 'swift'),
+            getItem('php', 'php'),
+            getItem('Scala', 'scala'),
+            getItem('c', 'c'),
+
         ];
     const urlParams = new URL(window.location.href);
     const pathname = urlParams.search.split("=")[1];
